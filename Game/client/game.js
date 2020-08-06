@@ -20,7 +20,7 @@ var turn = 0;
 var details;
 
 //page load
-$(function() {
+$(document).ready(function() {
     $.getJSON("config.json", function(data) {
         alert(data.size);
     })
